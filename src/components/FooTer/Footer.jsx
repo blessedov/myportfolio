@@ -15,6 +15,7 @@ const Footer = () => {
                         src='/assetss/linkedin.png'
                         width={50}
                         height={50}
+                        alt='linkedin'
                         className='w-[30px] h-[30px]'
                         />
                         </Link>
@@ -23,6 +24,7 @@ const Footer = () => {
                         src='/assetss/email.png'
                         width={50}
                         height={50}
+                        alt='email'
                         className='w-[30px] h-[30px]'
                         />
                         </Link>

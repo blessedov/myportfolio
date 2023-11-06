@@ -18,6 +18,7 @@ const Gallery = () => {
                 src='/assets/gallery/img01.jpg'
                 width={413}
                 height={416}
+                alt='uiux design'
                 className='rounded-md'
                 />
                 </Tilt>
@@ -27,6 +28,7 @@ const Gallery = () => {
                 src='/assets/gallery/img077.jpg'
                 width={600}
                 height={300}
+                alt='uiux design'
                 className='. rounded-md object-contain'
                 />
                 </Tilt>
@@ -39,6 +41,7 @@ const Gallery = () => {
                 src='/assets/gallery/img.jpg'
                 width={413}
                 height={416}
+                alt='uiux design'
                 className='rounded-md'
                 />
                 </Tilt>
@@ -50,6 +53,7 @@ const Gallery = () => {
                 src='/assets/gallery/img02.jpg'
                 width={413}
                 height={416}
+                alt='uiux design'
                 className='rounded-md'
                 />
                 </Tilt>
@@ -59,6 +63,7 @@ const Gallery = () => {
                 src='/assets/gallery/img010.jpg'
                 width={600}
                 height={300}
+                alt='uiux design'
                 className='. rounded-md object-contain'
                 />
                 </Tilt>
@@ -70,6 +75,7 @@ const Gallery = () => {
                 src='/assets/gallery/img04.jpg'
                 width={413}
                 height={416}
+                alt='uiux design'
                 id='contact'
                 className='rounded-md'
                 />

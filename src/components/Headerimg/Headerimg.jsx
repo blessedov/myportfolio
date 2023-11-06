@@ -29,6 +29,7 @@ const Headerimg = () => {
     <Image
     src='/img01.png'
     fill={true}
+    alt='Toochukwu Onyemalu'
     id='about'
     className={`${styles.img} bg-[#9033ff]  object-contain z-0 rounded-full shadow-xl
      `}
