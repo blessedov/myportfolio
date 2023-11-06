@@ -32,7 +32,7 @@ const AboutPage = () => {
                 <h2 className='text-[10vw] font-extrabold md:text-[4vw]  '>ABOUT <span className='text-[#9033fa]'>ME</span></h2>
                
 
-                <motion.p variants={fadeIn('','', 0.8, 1)}
+                <motion.p variants={fadeIn('','', 0.8, 0.8)}
                 className='text-[#cfcfcf] md:text-[1.4vw] '>I'm a passionate UI/UX designer and Architect, 
                     dedicated to crafting interfaces that captivate 
                     and engage users. With a keen eye for design and 
@@ -43,7 +43,7 @@ const AboutPage = () => {
             
              </motion.div>
 
-    <div className={`${styles.tabscontainer}`}>
+    <motion.div variants={fadeIn('','', 0.8, 1)} className={`${styles.tabscontainer}`}>
       <div className={`${styles.tabs}`}>
         <div
           className={`${styles.tab} ${activeTab === 1 ? ' bg-[#fff] text-[#1d1836]' : 'bg-[#915eff]'}`}
@@ -106,7 +106,7 @@ const AboutPage = () => {
                               <li className=' text-[15px] ml-5'>Java</li>
                               </ul>}
       </div>
-    </div>
+    </motion.div>
     </div>
 
 

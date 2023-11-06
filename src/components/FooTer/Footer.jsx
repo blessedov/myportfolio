@@ -1,8 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import linkedin from '@/components/assetss/linkedin.png'
-import whatsapp from '@/components/assetss/whatsapp.png'
-import email from '@/components/assetss/email.png'
 import Link from 'next/link'
 
 const Footer = () => {
@@ -15,7 +12,7 @@ const Footer = () => {
                     <div className=' w-full flex gap-5'>
                         <Link href='https://www.linkedin.com/in/toochukwu-onyemalu/' target='_blank'>
                         <Image
-                        src={linkedin}
+                        src='/assetss/linkedin.png'
                         width={50}
                         height={50}
                         className='w-[30px] h-[30px]'
@@ -23,7 +20,7 @@ const Footer = () => {
                         </Link>
                         <Link href="mailto:Toochukwuonyemalu@gmail.com" >
                         <Image
-                        src={email}
+                        src='/assetss/email.png'
                         width={50}
                         height={50}
                         className='w-[30px] h-[30px]'

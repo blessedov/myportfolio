@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import {FaTimes, FaBars} from 'react-icons/fa'
+import {motion} from 'framer-motion'
+import { fadeIn } from '@/utils/motion';
 
 const Navbar = () => {
     const [nav, setnav] = useState(false)
@@ -44,11 +46,11 @@ const Navbar = () => {
            </div>
 
            {nav &&(
-            <ul className='absolute border border-b-[#9033fa] pt-[100px] md:hidden bg-black left-0 flex justify-evenly gap-3 p-[10px] w-[100%] '>
+            <motion.ul variants={fadeIn('','', 0.5, 0.8)} className='absolute border border-b-[#9033fa] pt-[100px] md:hidden bg-black left-0 flex justify-evenly gap-3 p-[10px] w-[100%] '>
                 {Menus.map((menu,index)=>(
                     <Link onClick={()=>setnav(!nav)} className='font-semibold text-[14px] rounded-sm  bg-[#9153ff] p-1 ' key={index} href={menu.url}>{menu.name}</Link>
                 ))}
-            </ul>
+            </motion.ul>
            )}
         </nav>
     </div>

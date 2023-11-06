@@ -5,6 +5,8 @@ import styles from './Headimg.module.css'
 import { Sphere, OrbitControls, MeshDistortMaterial } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber';
 
+
+
 const Headerimg = () => {
   return (
     
@@ -23,7 +25,7 @@ const Headerimg = () => {
         </Sphere>
         </Suspense>
       </Canvas>
-      
+    
     <Image
     src='/img01.png'
     fill={true}
