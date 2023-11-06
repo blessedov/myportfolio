@@ -1,0 +1,13 @@
+.img{
+    animation: img 3s infinite ease alternate ;
+}
+@keyframes img {
+    from{
+        transform: scale(1.05);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+    

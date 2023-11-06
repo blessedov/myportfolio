@@ -1,0 +1,25 @@
+.transparency{
+  cursor: pointer;
+  -webkit-text-stroke: 1px #fff;
+  font-weight: 800;
+  color: transparent;
+  position: relative;
+}
+.transparency::after{
+  content: attr(text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #915eff;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+}
+.transparency:hover::after{
+  animation: movetext 1s linear both;
+}
+@keyframes movetext {
+  to{
+    width: 100%;
+  }
+}
