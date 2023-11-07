@@ -15,7 +15,7 @@ const AboutPage = () => {
   }
 
   const confirmdownload = (event)=>{
-    const confirmed = window.confirm("You're about to download the resume/CV")
+    const confirmed = window.confirm("You\'re about to download the resume/CV")
 
     if(!confirmed){
      event.preventDefault();
